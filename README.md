@@ -17,12 +17,9 @@ pip install conan
 
 Update with:
 
-
 ```
 pip install conan --upgrade
 ```
-
-
 
 ## Workflow
 
@@ -65,22 +62,15 @@ $ conan test test_package package/version@user/channel
 ```
 
 
-
 ## Principles
 
-
 Set of [generators](https://docs.conan.io/en/latest/reference/generators.html)
-
 
 Generator
 
 ConanFile
 
-
-
-
 ### References
-
 
 <package_name>/<version>@<user_name>/<channel>:<package_id>
 
@@ -92,8 +82,6 @@ with:
 - Package revision (PREV): A unique ID using the checksum of the package manifest (all files stored in a binary package).
 
 
-
-
 ### Settings
 
 [Settings](https://docs.conan.io/en/latest/extending/custom_settings.html)
@@ -101,10 +89,7 @@ with:
 
 ## Packaging
 
-### 
-
-
-
+### CMake
 
 Integration with [cmake](https://docs.conan.io/en/latest/integrations/build_system/cmake.html)
 
@@ -125,8 +110,6 @@ See [wiki](https://github.com/conan-io/conan-center-index/wiki)
 Search [here](https://conan.io/center/)
 
 
-
-
 ## Usage in Visual Studio
 
 For more details, see
@@ -134,11 +117,9 @@ For more details, see
 - [MSBuild](https://docs.conan.io/en/latest/integrations/build_system/msbuild.html)
 
 
-
 ### Extension
 
 There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 2017/2019
-
 
 
 ## Continuous Integration
@@ -146,11 +127,9 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 [doc](https://docs.conan.io/en/latest/howtos/generic_ci_artifactory.html)
 
 
-
-
-
 ## Tutorials
 
+[Getting started](https://docs.conan.io/en/latest/getting_started.html)
 
 ## Advanced usage
 
@@ -161,29 +140,32 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 
 ## Dependencies
 
-- eigen
-- hdf5
-- petsc
-- vtk
-- mpi ?
-- nlopt ?
+### CEMEF
 
-- tsv_licence_lib
 - felicia
 - mtc
+- nlopt: https://github.com/vthiery/conan-nlopt
 
-- qt
+### Transvalor
+
+- tsv_licence_lib
+- licence_lib ?
+- wbfortran
+
+### Others
+
 - ceetron components
 - cm2
-- zlib
 - connexion3d
-- licence_lib ?
+- eigen: https://github.com/conan-community/conan-eigen
+- gtest: https://github.com/lasote/conan-gtest
+- hdf5: https://github.com/darcamo/conan-hdf5
 - occ
-- vtk
-- wbfortran
+- openmpi: https://github.com/bincrafters/conan-openmpi
+- petsc: https://github.com/bilke/conan-petsc
+- qt: https://github.com/bincrafters/conan-qt
+- qwt: https://github.com/kenfred/conan-qwt
 - qtitanribbon
-
-- qwt
-- gtest
-
-- ssl
+- vtk: https://git.ircad.fr/conan/conan-vtk
+- ssl: https://github.com/conan-community/conan-openssl
+- zlib: https://github.com/conan-community/conan-zlib
