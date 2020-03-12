@@ -4,6 +4,8 @@
 
 See [here](https://docs.conan.io/en/latest/creating_packages/getting_started.html#) for details
 
+and [sources](https://github.com/conan-io/hello)
+
 ```
 mkdir mypkg && cd mypkg
 ```
