@@ -65,28 +65,28 @@ $ conan test test_package package/version@user/channel
    
 See [here](https://docs.conan.io/en/latest/reference.html)
 
-Commands
+### Commands
 
-Files (conanfile.txt, conanfile.py)	
+### Files (conanfile.txt, conanfile.py)	
+
+### Generators
 
 Set of [generators](https://docs.conan.io/en/latest/reference/generators.html)
 
-Generators
+### Profiles
 
-Profiles
+### Build helpers
 
-Build helpers
+### Tools
 
-Tools
+### Configuration files
 
-Configuration files
+### Environment variables
 
-Environment variables
-
-Hooks
+### Hooks
 
 
-### Package references
+## Package references
 
 <package_name>/<version>@<user_name>/<channel>:<package_id>
 
@@ -98,7 +98,7 @@ with:
 - Package revision (PREV): A unique ID using the checksum of the package manifest (all files stored in a binary package).
 
 
-### Settings
+## Settings
 
 [Settings](https://docs.conan.io/en/latest/extending/custom_settings.html)
 
