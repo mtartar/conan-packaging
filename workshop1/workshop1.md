@@ -116,3 +116,28 @@ $ cd consumer
 # conan install to update dependency graph and conanbuildinfo.cmake
 # run cmake, build and run timer
 ```
+
+### Exercise 7 - Create & test package
+
+```
+$ cd training/create
+$ conan new hello/0.1 -t # -t generates test_package
+$ conan create . user/testing
+> ... # check output
+> Hello World Release!
+$ conan create . user/testing -s build_type=Debug
+> ... # check output
+> Hello World Debug!
+```
+
+### Exercise 8 - Create with source
+
+```
+$ cd training/create_sources
+$ conan new hello/0.1 -t -s # The -s generates example src
+$ conan create . user/testing
+> ... # check output
+> Hello World Release!
+$ conan create . user/testing -s build_type=Debug
+> Hello World Debug!
+```
