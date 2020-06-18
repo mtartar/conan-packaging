@@ -79,5 +79,30 @@ $ ./timer
 > ...
 ```
 
+Fix the typo!
+
 ## Create Conan packages
+
+### Exercise 5 - Create package (from Github source)
+
+Create empty directory 	training/create
+
+Clone git repository
+
+```
+git clone https://github.com/conan-io/hello.git
+```
+
+```
+$ cd ../create
+$ conan new hello/0.1 # just a template
+# check the conanfile.py
+$ conan create . user/testing
+> ...
+$ conan search
+$ conan search hello/0.1@user/testing
+$ conan create . user/testing -s build_type=Debug
+> ...
+$ conan search hello/0.1@user/testing
+```
 
