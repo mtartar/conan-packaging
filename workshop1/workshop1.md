@@ -106,3 +106,13 @@ $ conan create . user/testing -s build_type=Debug
 $ conan search hello/0.1@user/testing
 ```
 
+### Exercise 6 - Consume "hello" package
+
+```
+$ cd consumer
+# modify conanfile.txt to account for new dependency
+# modify CMakeLists.txt to account for new CONAN_PKG::hello
+# modify timer.cpp to include "hello.h" and call the hello() function
+# conan install to update dependency graph and conanbuildinfo.cmake
+# run cmake, build and run timer
+```
