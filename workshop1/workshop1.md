@@ -141,3 +141,110 @@ $ conan create . user/testing
 $ conan create . user/testing -s build_type=Debug
 > Hello World Debug!
 ```
+
+## Uploading packages to Artifactory
+
+### Exercise 9a - Upload to Artifactory
+
+```
+$ conan remote add artifactory <URL from SetMeUp>
+$ conan remote list
+$ conan upload "hello*" -r artifactory --all
+# search remote repositories
+$ conan search "*" -r=artifactory
+$ conan search hello/0.1@user/testing -r=artifactory
+# Navigate to Artifactory WebUI and check!
+```
+
+### Exercise 9b - Upload ALL packages to Artifactory
+
+```
+$ conan upload "*" -r artifactory --all --confirm
+$ conan search "*" -r=artifactory
+# Navigate to Artifactory WebUI and check!
+# We could: $ conan remote remove conan-center
+# Can re-add with: $ conan remote add conan-center https://conan.bintray.com
+```
+
+### Exercise 10 - Exploring the Conan Cache
+
+```
+$ ls ~/.conan # look inside your conan home
+$ ls ~/.conan/data # look inside your conan cache
+$ ls ~/.conan/data/hello/0.1/user/testing
+$ ls ~/.conan/data/hello/0.1/user/testing/package/<id>/include
+$ ls ~/.conan/data/hello/0.1/user/testing/package/<id>/lib
+$ conan remove "*" -f
+$ conan search # local
+```
+
+### Exercise 11 - Use packages from Artifactory
+
+```
+$ cd consumer
+$ mkdir build && cd build
+$ conan install .. -r=artifactory
+$ cmake .. -DCMAKE_BUILD_TYPE=Release
+$ cmake --build . # or make
+$ cd bin
+$ ./timer
+> ...
+```
+
+## Build configuration & cross-build
+
+### Exercise 12 - Options for shared/static
+
+```
+$ cd training/create_sources
+$ conan create . user/testing -o hello:shared=True
+$ conan create . user/testing -o hello:shared=True -s build_type=Debug
+$ conan search hello/0.1@user/testing
+```
+
+### Exercise 13 - Define and use custom options
+
+```
+$ cd training/create_options
+$ conan create . user/testing -o greet:language=English
+$ conan create . user/testing -o greet:language=Spanish
+```
+
+### Exercise 14 - Config values and errors
+
+```
+$ conan create . user/testing -o greet:language=Italian # Error
+# and to check available options?
+$ conan inspect greet/0.1@user/testing
+$ conan inspect zlib/1.2.11@
+$ conan get zlib/1.2.11@
+# and for settings?
+$ conan create . user/testing -s compiler=unknown # Error
+$ conan create . user/testing -s compiler.version=200 # Error
+```
+
+
+### Exercise 15 - Profiles and cross-compiling
+
+```
+$ conan profile list
+$ conan profile show default
+$ conan create . user/testing
+# equal to
+$ conan create . user/testing -pr=default
+```
+
+```
+$ cd cross_build
+$ less rpi_armv7
+# press "q" to exit less
+$ conan create . user/testing -pr=rpi_armv7
+> ...
+$ conan search
+$ conan search hello/0.1@user/testing
+```
+
+
+
+
+
