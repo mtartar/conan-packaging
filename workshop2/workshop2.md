@@ -2,6 +2,15 @@
 
 ## Requirements
 
+Clone git repository
+
+```
+git clone https://github.com/conan-io/training
+```
+
+See slides in document ConanTrainingAdvanced.pdf
+
+
 ### Exercise 16 - Transitive requiring zlib
 
 ```

@@ -46,7 +46,7 @@ $ conan build . --source-folder=tmp/source --build-folder=tmp/build
 
 ```
 $ conan package . --build_folder=tmp/build --package_folder=tmp/package
-```
+```.
 
 ### conan create
 
@@ -121,9 +121,12 @@ Using [find_package](https://docs.conan.io/en/latest/reference/generators/cmake_
 
 ### Conan center
 
+[Conan Center](https://github.com/conan-io/conan-center-index)
+
 See [wiki](https://github.com/conan-io/conan-center-index/wiki)
 
 Search [here](https://conan.io/center/)
+
 
 
 ## Usage in Visual Studio
@@ -156,19 +159,7 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 
 ## Dependencies
 
-### CEMEF
-
-- felicia
-- mtc
-- nlopt: https://github.com/vthiery/conan-nlopt
-
 ### Transvalor
-
-- tsv_licence_lib
-- licence_lib ?
-- wbfortran
-
-### Others
 
 - ceetron components
 - cm2
@@ -185,3 +176,16 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 - vtk: https://git.ircad.fr/conan/conan-vtk
 - ssl: https://github.com/conan-community/conan-openssl
 - zlib: https://github.com/conan-community/conan-zlib
+
+### Others
+
+- tsv_licence_lib
+- licence_lib ?
+- wbfortran
+
+### CEMEF
+
+- felicia
+- mtc
+- nlopt: https://github.com/vthiery/conan-nlopt
+

@@ -1,4 +1,4 @@
-# Conan Training Basics
+# Introduction to Conan C++ Package Manager: Basics
 
 ## Introduction
 
@@ -7,6 +7,9 @@ Clone git repository
 ```
 git clone https://github.com/conan-io/training
 ```
+
+See slides in document ConanTrainingBasics.pdf
+
 
 ## Consume Conan packages
 

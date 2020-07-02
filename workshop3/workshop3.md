@@ -1,6 +1,14 @@
-# 
+# CI/CD in C/C++ Projects with conan and Artifactory
 
 ## Recap from Advanced Training
+
+```
+git clone git@github.com:conan-io/training-ci.git
+```
+
+See slides in document ci_cd_training.pdf
+
+
 
 Revisions
 Lock files
