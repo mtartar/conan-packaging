@@ -7,3 +7,6 @@
 # Tutorials
 tutorials/examples/
 tutorials/md5/build/
+
+# zlib
+zlib/conan-zlib
