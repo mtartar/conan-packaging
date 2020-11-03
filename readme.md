@@ -168,7 +168,6 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 - qt: https://github.com/bincrafters/conan-qt
 - qwt: https://github.com/kenfred/conan-qwt
 - qtitanribbon
-- vtk: https://git.ircad.fr/conan/conan-vtk
 
 ### Others
 

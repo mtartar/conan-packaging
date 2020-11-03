@@ -15,5 +15,5 @@ hdf5/conan-hdf5
 petsc/conan-petsc
 openmpi/conan-openmpi
 gtest/conan-gtest
-
+vtk/conan-vtk
 
