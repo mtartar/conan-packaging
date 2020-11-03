@@ -175,7 +175,6 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 - qtitanribbon
 - vtk: https://git.ircad.fr/conan/conan-vtk
 - ssl: https://github.com/conan-community/conan-openssl
-- zlib: https://github.com/conan-community/conan-zlib
 
 ### Others
 
