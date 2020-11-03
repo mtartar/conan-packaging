@@ -12,3 +12,6 @@ tutorials/md5/build/
 zlib/conan-zlib
 openssl/conan-openssl
 hdf5/conan-hdf5
+petsc/conan-petsc
+openmpi/conan-openmpi
+

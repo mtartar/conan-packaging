@@ -167,8 +167,6 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 - eigen: https://github.com/conan-community/conan-eigen
 - gtest: https://github.com/lasote/conan-gtest
 - occ
-- openmpi: https://github.com/bincrafters/conan-openmpi
-- petsc: https://github.com/bilke/conan-petsc
 - qt: https://github.com/bincrafters/conan-qt
 - qwt: https://github.com/kenfred/conan-qwt
 - qtitanribbon
