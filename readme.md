@@ -166,7 +166,6 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 - connexion3d
 - eigen: https://github.com/conan-community/conan-eigen
 - gtest: https://github.com/lasote/conan-gtest
-- hdf5: https://github.com/darcamo/conan-hdf5
 - occ
 - openmpi: https://github.com/bincrafters/conan-openmpi
 - petsc: https://github.com/bilke/conan-petsc
