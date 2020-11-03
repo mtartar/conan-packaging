@@ -164,7 +164,6 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 - ceetron components
 - cm2
 - connexion3d
-- gtest: https://github.com/lasote/conan-gtest
 - occ
 - qt: https://github.com/bincrafters/conan-qt
 - qwt: https://github.com/kenfred/conan-qwt
