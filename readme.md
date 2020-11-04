@@ -165,7 +165,6 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 - cm2
 - connexion3d
 - occ
-- qt: https://github.com/bincrafters/conan-qt
 - qwt: https://github.com/kenfred/conan-qwt
 - qtitanribbon
 
