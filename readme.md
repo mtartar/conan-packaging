@@ -163,20 +163,11 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 
 - ceetron components
 - cm2
-- connexion3d
 - occ
 - qwt: https://github.com/kenfred/conan-qwt
 - qtitanribbon
 
-### Others
-
-- tsv_licence_lib
-- licence_lib ?
-- wbfortran
-
 ### CEMEF
 
-- felicia
-- mtc
 - nlopt: https://github.com/vthiery/conan-nlopt
 
