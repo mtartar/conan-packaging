@@ -156,18 +156,13 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 
 [Git tool](https://docs.conan.io/en/latest/reference/tools.html#tools-git)
 
-
 ## Dependencies
 
-### Transvalor
+### Binaries ? Sources ?
 
 - ceetron components
 - cm2
 - occ
-- qwt: https://github.com/kenfred/conan-qwt
 - qtitanribbon
 
-### CEMEF
-
-- nlopt: https://github.com/vthiery/conan-nlopt
 

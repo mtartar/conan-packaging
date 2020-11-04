@@ -18,4 +18,6 @@ gtest/conan-gtest
 vtk/conan-vtk
 qt/conan-qt
 qwt/conan-qwt
+nlopt/conan-nlopt
+
 
