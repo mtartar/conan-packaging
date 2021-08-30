@@ -46,7 +46,7 @@ $ conan build . --source-folder=tmp/source --build-folder=tmp/build
 
 ```
 $ conan package . --build_folder=tmp/build --package_folder=tmp/package
-```.
+```
 
 ### conan create
 
