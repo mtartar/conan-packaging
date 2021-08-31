@@ -158,6 +158,68 @@ There's an [extension](https://github.com/conan-io/conan-vs-extension) for VS 20
 
 ## Dependencies
 
+
+### eigen
+
+
+### embree3
+
+
+
+
+### gtest
+
+
+### hdf5
+
+```
+cd recipes\hdf5\all
+conan create . hdf5/1.10.6@demo/testing
+```
+
+
+### openmpi
+
+```
+cd recipes\openmpi\all
+conan create . openmpi/4.1.0@demo/testing
+```
+
+
+### openssl
+
+```
+cd recipes\openssl\1.x.x
+conan create . openssl/1.1.1l@demo/testing
+```
+
+
+### qt
+
+
+```
+cd recipes\qt\5.x.x
+conan create . qt/5.15.2@demo/testing
+```
+
+
+### qwt
+
+
+### zlib
+
+```
+cd recipes\zlib\1.2.8
+conan create . zlib/1.2.8@demo/testing
+```
+
+
+
+
+
+
+
+
 ### Binaries ? Sources ?
 
 - ceetron components
