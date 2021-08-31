@@ -4,6 +4,9 @@
 # Python files
 *.pyc
 
+# Build directories
+build
+
 # Tutorials
 tutorials/examples/
 tutorials/md5/build/
